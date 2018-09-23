@@ -1,0 +1,9 @@
+@import '../stylesheets/Color.css';
+
+.home h1 {
+    color: var(--colorPrimary);
+}
+
+.home h2 {
+    color: var(--colorSecondary);
+}
