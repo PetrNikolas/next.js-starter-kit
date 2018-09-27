@@ -63,3 +63,6 @@ npm run build-storybook
 
 ## Configuration SEO, Sentry etc
 * Set SEO & analytics variables: `src/globals/env.ts`
+
+## Ant Design documentation
+* [Doc](https://ant.design/docs/react/introduce)
