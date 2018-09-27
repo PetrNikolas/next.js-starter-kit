@@ -1,11 +1,15 @@
 import * as React from 'react'
 
-export class Footer extends React.Component<{}, {}> {
+import { Layout } from 'antd';
+
+const { Header, Content, Footer } = Layout;
+
+export class AppFooter extends React.Component<{}, {}> {
   render() {
     return (
-      <footer>
-        <a href="https://github.com/PetrNikolas/next.js-starter-kit" target="_blank"> Download! </a>
-      </footer>
+      <Footer style={{ textAlign: 'center' }}>
+        Next.js starter kit ©2018 Created by <a href="https://www.petrnikolas.com/" target="_blank">Petr Nikolas</a>
+      </Footer>
     )
   }
 }

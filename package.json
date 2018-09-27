@@ -1,6 +1,6 @@
 {
   "name": "next.js-starter-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "start:dev": "next",
     "build:dev": "next build",
@@ -16,6 +16,7 @@
     "ts:check": "tsc --noEmit"
   },
   "dependencies": {
+    "antd": "^3.9.3",
     "classnames": "^2.2.5",
     "moment": "^2.22.1",
     "next": "^6.1.1",

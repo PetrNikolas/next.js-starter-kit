@@ -6,8 +6,10 @@
  - React
  - Redux
  - TypeScript
+ - Ant Design
  - Styled-jsx
  - PostCSS
+ - Normalize.css
  - SEO & analytics
  - Storybook
  - Jest & Enzyme
@@ -19,12 +21,14 @@ npm install
 
 ## Development build
 ```bash
+# Development build with hot reloading
 npm run start:dev
 ```
 
 ## Production build
 #### Serve with server
 ```bash
+# Build app for production
 npm install
 npm run build
 npm start
@@ -32,6 +36,7 @@ npm start
 
 #### Export static HTML
 ```bash
+# Export static html to the out folder
 npm install
 npm run build
 npm run export
@@ -39,6 +44,7 @@ npm run export
 
 ## Tests
 ```bash
+# Run tests
 npm run test
 npm run test:watch
 npm run test:coverage
@@ -46,12 +52,14 @@ npm run test:coverage
 
 ## StoryBook
 ```bash
-npm run storybook # open browser localhost:6006
+# Open browser localhost:6006
+npm run storybook
 ```
 
 ```bash
-npm run build-storybook # Build storybook static assets
+# Build storybook static assets
+npm run build-storybook
 ```
 
-## Configuration SEO, etc
+## Configuration SEO, Sentry etc
 * Set SEO & analytics variables: `src/globals/env.ts`

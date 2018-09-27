@@ -1,13 +1,13 @@
 import * as React from 'react'
 import {Home} from '../src/components/home/Home'
-import {Layout} from '../src/components/Layout'
+import {Page} from '../src/components/Page'
 
 export default class Index extends React.Component {
   render() {
     return (
-      <Layout>
+      <Page>
         <Home/>
-      </Layout>
+      </Page>
     )
   }
 }

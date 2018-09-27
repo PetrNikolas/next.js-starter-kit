@@ -49,6 +49,13 @@ export default class extends Document {
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
           crossOrigin="anonymous"
         />
+        <link 
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+          integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54="
+          crossOrigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.9.3/antd.min.css" integrity="sha256-h38EAbRO66dS8D5tOCipHTajDADC8qrgfbadIgfGGq4=" crossOrigin="anonymous" />
         <link rel="shortcut icon" href="/static/img/favicon.ico"/>
         <link rel="stylesheet" href="/_next/static/style.css" />
 

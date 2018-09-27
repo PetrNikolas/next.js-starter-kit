@@ -1,13 +1,13 @@
 import * as React from 'react'
 import {About} from '../src/components/about/About'
-import {Layout} from '../src/components/Layout'
+import {Page} from '../src/components/Page'
 
 export default class AboutUs extends React.Component {
   render() {
     return (
-      <Layout>
+      <Page>
         <About/>
-      </Layout>
+      </Page>
     )
   }
 }
