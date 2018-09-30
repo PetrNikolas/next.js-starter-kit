@@ -10,9 +10,9 @@
  - Styled-jsx
  - PostCSS
  - Normalize.css
- - SEO & analytics
  - Storybook
  - Jest & Enzyme
+ - SEO & analytics
 
 ## Get started
 ```sh
